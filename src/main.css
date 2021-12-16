@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-tertiary {
+  @apply inline-flex justify-center px-4 py-1 text-sm font-medium 
+  text-blue-900 bg-blue-100 border border-transparent rounded-md 
+  hover:bg-blue-200 focus:outline-none;
+}
+
+.btn-secondary {
+  @apply inline-flex justify-center px-4 py-1 text-sm font-medium 
+  text-gray-900 bg-gray-100 border border-transparent rounded-md 
+  hover:bg-gray-200 focus:outline-none;
+}
+
+ul a {
+  @apply p-2 inline-block w-full;
+}
+
+a:hover {
+  @apply text-gray-900;
+}
+
+a.active {
+  @apply bg-gray-100;
+}
